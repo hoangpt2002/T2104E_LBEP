@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <math.h>
 int main ()
 {
 	int a,b,c;
@@ -15,13 +15,12 @@ int main ()
 	}
 	else
 	{
-		int C;
-		float p,S;
+		float C,p,S;
 		C = a + b + c;
-		p = c/2;
-		S = p*(p-a)*(p-b)*(p-c);
+		p = C/2;
+		S = sqrt(p*(p-a)*(p-b)*(p-c));
 		printf("3 canh do la 3 canh cua tam giac\n");
-		printf("Chu vi la: %d\n", C);
+		printf("Chu vi la: %f\n", C);
 		printf("Dien tich la: %f", S);
 	}
 	return 0;
