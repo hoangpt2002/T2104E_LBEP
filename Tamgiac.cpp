@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+
 int main ()
 {
 	int a,b,c;
@@ -15,6 +16,7 @@ int main ()
 	}
 	else
 	{
+		
 		float C,p,S;
 		C = a + b + c;
 		p = C/2;
@@ -23,5 +25,4 @@ int main ()
 		printf("Chu vi la: %f\n", C);
 		printf("Dien tich la: %f", S);
 	}
-	return 0;
 }

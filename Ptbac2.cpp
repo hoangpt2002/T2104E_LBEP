@@ -39,6 +39,5 @@ int main()
 				}
 				else
 					printf("Phuong trinh vo nghiem");
-		}
-	return 0;		
+		}		
 }
